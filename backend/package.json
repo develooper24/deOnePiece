@@ -1,19 +1,29 @@
 {
-  "name": "deop",
-  "version": "0.0.1",
-  "description": "Proyecto Nicho de One Piece",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/develooper24/deOnePiece.git"
-  },
-  "author": "Develooper24",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/develooper24/deOnePiece/issues"
-  },
-  "homepage": "https://github.com/develooper24/deOnePiece#readme"
+    "name": "deop",
+    "version": "0.0.1",
+    "description": "Proyecto Nicho de One Piece",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/develooper24/deOnePiece.git"
+    },
+    "author": "Develooper24",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cheerio": "^1.0.0-rc.2",
+        "express": "^4.16.2",
+        "jquery": "^3.3.1",
+        "mongoose": "^5.0.7",
+        "nightmare": "^3.0.0",
+        "nodemon": "^1.15.1"
+    },
+    "bugs": {
+        "url": "https://github.com/develooper24/deOnePiece/issues"
+    },
+    "homepage": "https://github.com/develooper24/deOnePiece#readme"
 }
