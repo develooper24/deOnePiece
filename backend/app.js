@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 
 //importar rutas
 var appRoutes = require('./routes/app');
+var amazonRoutes = require('./routes/amazon');
 //var pruebas = require('./routes/pueba');
 
 //conexxion a la base de datos
@@ -28,7 +29,7 @@ mongoose.connection.openUri(BASE_DE_DATOS_URI, (err, res) => {
 })
 
 //rutas
-//app.use('/prueba', prueba);
+app.use('/amazon', amazonRoutes);
 app.use('/', appRoutes);
 
 
